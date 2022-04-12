@@ -14,3 +14,57 @@ a {
 * {
   box-sizing: border-box;
 }
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: darkslateblue;
+  color: white;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.mini-nav {
+  display: flex;
+  align-items: center;
+}
+.mini-nav > div {
+  margin: 0 0.5rem;
+  text-transform: capitalize;
+}
+.main-heading {
+  font-size: 2rem;
+  font-weight: semi-bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+.people-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: semi-bold;
+  margin: 1rem 0;
+}
+.people-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.people-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: darkslateblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
